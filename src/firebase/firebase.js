@@ -4,14 +4,13 @@ import "firebase/auth"
 
 
 const app = initializeApp({
-    apiKey: "AIzaSyDYBc-y75dUs9yZVjJT8GTBXf-Kw7wriTo",
-    authDomain: "christmas-list-e18e6.firebaseapp.com",
-    databaseURL: "https://christmas-list-e18e6-default-rtdb.firebaseio.com",
-    projectId: "christmas-list-e18e6",
-    storageBucket: "christmas-list-e18e6.appspot.com",
-    messagingSenderId: "846250414357",
-    appId: "1:846250414357:web:b9ec196b208596fa1f591c",
-    measurementId: "${config.measurementId}"
+  apiKey: "AIzaSyAP73lv7p9VyUr6-ImTGXv09IMxioI4nu0",
+  authDomain: "christmas-app-75dc0.firebaseapp.com",
+  projectId: "christmas-app-75dc0",
+  storageBucket: "christmas-app-75dc0.appspot.com",
+  messagingSenderId: "467528913655",
+  appId: "1:467528913655:web:b9a26c243fd6b7c06f79f2",
+  measurementId: "${config.measurementId}"
   })
   
   export const auth = getAuth(app)
