@@ -1,0 +1,78 @@
+$base-green: #78954E;
+$base-red: #A70000;
+$base-gray: #2F2F32;
+$base-white: #FFF8E9;
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Oswald' !important;
+    background-color: $base-white !important;
+    color: $base-red !important;
+    
+    
+}
+
+.link {
+    color: $base-gray;
+    background-color: transparent !important;
+}
+
+button {
+    background-color: $base-green !important;
+    margin:20px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    height: 60px !important;
+    width: 100px !important;
+    border-color: $base-green;
+    box-shadow: none !important;
+}
+
+.small_button {
+    background-color: $base-red !important;
+    font-size: 18px !important;
+    background-color: $base-red !important;
+}
+
+
+.small_button:hover {
+    background-color: $base-white !important;
+    color: $base-red !important;
+    border-color: $base-red !important;
+}
+
+button:hover{
+    background-color: $base-white !important;
+    color: $base-green !important;
+    border-color: $base-green !important;
+}
+
+.form-control { 
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+    height: 60px;
+    color: $base-red !important;
+}
+
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top:5%;
+    width: 40rem;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    // align-items: center;
+    
+}
